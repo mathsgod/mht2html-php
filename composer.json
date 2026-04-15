@@ -1,0 +1,30 @@
+{
+    "name": "mathsgod/mht2html",
+    "description": "Convert MHT/MHTML files to self-contained HTML with base64-embedded images",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Chong",
+            "email": "mathsgod@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "php-mime-mail-parser/php-mime-mail-parser": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mht2Html\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mht2Html\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0 || ^10.0"
+    }
+}
+
